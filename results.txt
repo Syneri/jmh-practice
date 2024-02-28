@@ -1,0 +1,48 @@
+100 rand
+Benchmark                        Mode  Cnt  Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  0,015          ms/op
+PracticeSortTest.mergeSortTest   avgt    2  0,005          ms/op
+PracticeSortTest.quickSortTest   avgt    2  0,004          ms/op
+PracticeSortTest.timSortTest     avgt    2  0,005          ms/op
+
+1_000 rand
+Benchmark                        Mode  Cnt  Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  1,007          ms/op
+PracticeSortTest.mergeSortTest   avgt    2  0,070          ms/op
+PracticeSortTest.quickSortTest   avgt    2  0,058          ms/op
+PracticeSortTest.timSortTest     avgt    2  0,070          ms/op
+
+10_000 rand
+Benchmark                        Mode  Cnt    Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  165,526          ms/op
+PracticeSortTest.mergeSortTest   avgt    2    0,968          ms/op
+PracticeSortTest.quickSortTest   avgt    2    0,756          ms/op
+PracticeSortTest.timSortTest     avgt    2    1,026          ms/op
+
+100 sort
+Benchmark                        Mode  Cnt   Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  ≈ 10⁻⁴          ms/op
+PracticeSortTest.mergeSortTest   avgt    2  ≈ 10⁻⁴          ms/op
+PracticeSortTest.quickSortTest   avgt    2   0,001          ms/op
+PracticeSortTest.timSortTest     avgt    2  ≈ 10⁻⁴          ms/op
+
+1_000 sort
+Benchmark                        Mode  Cnt  Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  0,001          ms/op
+PracticeSortTest.mergeSortTest   avgt    2  0,002          ms/op
+PracticeSortTest.quickSortTest   avgt    2  0,009          ms/op
+PracticeSortTest.timSortTest     avgt    2  0,001          ms/op
+
+10_000 sort
+Benchmark                        Mode  Cnt  Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  0,007          ms/op
+PracticeSortTest.mergeSortTest   avgt    2  0,009          ms/op
+PracticeSortTest.quickSortTest   avgt    2  0,122          ms/op
+PracticeSortTest.timSortTest     avgt    2  0,010          ms/op
+
+10_000 sort desc
+Benchmark                        Mode  Cnt  Score   Error  Units
+PracticeSortTest.bubbleSortTest  avgt    2  175,701          ms/op
+PracticeSortTest.mergeSortTest   avgt    2    0,025          ms/op
+PracticeSortTest.quickSortTest   avgt    2    0,191          ms/op
+PracticeSortTest.timSortTest     avgt    2    0,032          ms/op
